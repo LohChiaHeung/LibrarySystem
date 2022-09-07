@@ -1,0 +1,52 @@
+/*
+Group Project - Library book system?
+1. Fang Xiang Lun   D200221C
+2. Lai Jin Fatt     D200245C
+3. Lim Hooi Ern     D200217C
+4. Teh Jun Yuan     D200248C
+5. Loh Chia Heung   D200262C
+*/
+
+/*CSS for Library Book System [Login Page]*/
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Georgia, serif;";
+    -fx-font-weight: bold;
+    -fx-background-color:#1528da; 
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color:#10f0e5; 
+}
+
+Label .text{
+    -fx-fill:#87CEFA;
+    -fx-font: bold 18px Georgia, serif;
+}
+
+#image{
+    -fx-background-image: url(flippedbook.jpg);
+    -fx-background-size: 600px; 
+    -fx-opacity: 0.9;
+}
+
+Hyperlink{
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;;
+    -fx-underline:false;
+}
+
+Hyperlink:hover{
+   -fx-text-fill: #87CEFA;
+        }
+           
+Hyperlink:visited {
+  -fx-text-fill: black;
+  
+}
+
+Text{
+    -fx-font: bold 25px Arial, sans-serif;
+}

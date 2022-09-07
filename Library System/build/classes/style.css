@@ -1,0 +1,67 @@
+/*
+Group Project - Library book system?
+1. Fang Xiang Lun   D200221C
+2. Lai Jin Fatt     D200245C
+3. Lim Hooi Ern     D200217C
+4. Teh Jun Yuan     D200248C
+5. Loh Chia Heung   D200262C
+*/
+
+/*CSS for Library Book System*/
+.table-view .column-header .label {
+    -fx-background-color: black;
+    -fx-border-color: black;
+}
+.table-view .column-header .arrow {
+    -fx-background-color: rgb(226, 10, 10) ;
+}
+.table-row-cell:selected {
+    -fx-background-image: url(wood.jpg); 
+}
+.table-row-cell:selected .text{
+    -fx-fill: rgb(247, 247, 247) ;
+}
+.table-row-cell{
+    -fx-background-color:rgb(226,197,121);
+}
+.image {
+    -fx-background-image: url(books.jpg); 
+    -fx-opacity: 0.9;
+}
+Label .text{
+    -fx-fill: gainsboro;
+    -fx-font: 17px Georgia, serif;
+}
+Text{
+    -fx-fill: rgb(0, 226, 226);
+    -fx-font-size: 28px; 
+}
+RadioButton .text{
+    -fx-fill: gold;
+    -fx-font: 18px "Times New Roman", Times, serif ; 
+}
+ 
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Georgia, serif;";
+    -fx-font-weight: bold;
+    -fx-background-color:#A52A2A; 
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color:#FF7F50; 
+}
+
+.type.Label.text{
+    -fx-background-color:black;
+}
+
+.date-picker-popup > .month-year-pane {
+    -fx-padding: 0.588883em 0.5em 0.666667em 0.5em; /* 7 6 8 6 */
+    -fx-background-color: derive(-fx-box-border,30%), 
+        linear-gradient(to bottom, derive(red,-3%), 
+                                   derive(red,5%) 50%, 
+                                   derive(red,-3%));
+    -fx-background-insets: 0 0 0 0, 0 0 1 0;
+}
